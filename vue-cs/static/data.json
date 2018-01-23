@@ -1,0 +1,37 @@
+{
+    "reason": "查询成功",
+    "result": [
+        {
+            "title": "首页",
+            "url": "/",
+            "class": false,
+            "z_class": []
+        },{
+            "title": "资讯",
+            "url": "/News",
+            "class": false,
+            "z_class": []
+        },{
+            "title": "图片",
+            "url": "/Images",
+            "class": false,
+            "z_class": []
+        },{
+            "title": "产品",
+            "url": "/Product",
+            "class": true,
+            "z_class": [
+                {
+                    "title": "鞋子",
+                    "url" : "/Product-z",
+                    "cs": "/Shoes"
+                },{
+                    "title": "T恤",
+                    "url" : "/Product-z",
+                    "cs": "/T-shirt"
+                }
+            ]
+        }
+    ],
+    "error_code": 0
+}
